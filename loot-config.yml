@@ -55,7 +55,7 @@ loot:
       
 # Maximum amount of money a player can get from a lootcrate.
 # The plugin generates a random integer between 0 and this number (this number excluded).
-maximum_money: 400
+maximum_money: 300
 
 # Item in the chest that is used to give the player money.
 # Don't forget to add this to the list of items (either common or rare, your call).
