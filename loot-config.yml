@@ -8,7 +8,7 @@ lootcrate:
   menu_title: '&8Lootcrate'
   name: '&6&lLootcrate'
   lore:
-    - '&2Right click to open!'
+    - '&2Place to open!'
 
 # Items a player can get from the lootcrates.
 loot:
