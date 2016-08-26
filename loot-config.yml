@@ -14,7 +14,7 @@ lootcrate:
 loot:
   items:
     # Number of items (both common and rare separately) you can get from a lootcrate (max 27).
-    amount_common: 4
+    amount_common: 3
     amount_rare: 1
     # End markers
       # Item ID ';' - 
