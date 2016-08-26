@@ -1,0 +1,10 @@
+name: Lootcrates
+description: Lootcrates in Minecraft
+version: 1.0
+main: com.plofcorp.Lootcrates.Main
+depend: [Vault]
+commands:
+  lootcrate:
+    description: Base lootcrate command.
+    usage: /lootcrate [<subcommand>] [<args>...]
+    permission: lootcrate.use

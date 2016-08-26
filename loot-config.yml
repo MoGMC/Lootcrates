@@ -1,0 +1,62 @@
+# This is the Lootcrate config. Be careful when changing things.
+# Use item IDs or names.
+
+# Configuration for the lootcrate item.
+lootcrate:
+  item: 54
+  # Has to be a title that players can't make themselves (with color) to prevent it from messing up
+  menu_title: '&8Lootcrate'
+  name: '&6&lLootcrate'
+  lore:
+    - '&2Right click to open!'
+
+# Items a player can get from the lootcrates.
+loot:
+  items:
+    # Number of items (both common and rare separately) you can get from a lootcrate (max 27).
+    amount_common: 4
+    amount_rare: 1
+    # End markers
+      # Item ID ';' - 
+      # Item Damage Value ':'
+      # Max Quantity ',' - adds one plus random.getInt(quantity) so if you put in "4" it'll be from 1-4 items.
+      # Enchantment 'ID|LVL'
+    common:
+#       - "268;1,17|2)21|1)&8&lNeat Sword]"
+      - 349;1:4,
+      - 6;0:4,
+      - 6;1:4,
+      - 6;2:4,
+      - 6;3:4,
+      - 6;4:4,
+      - 6;5:4,
+      - 352;5,
+      - 265;5,
+      - 264;4,
+      - 344;8,
+      - 262;30,
+      - 266;1,
+      - 364;4,
+    rare:
+      - 388;10,
+      - 278;1,
+      - 279;1,
+      - 421;2,
+      - 384;64,
+      - 383;90:1,
+      - 383;91:1,
+      - 383;92:1,
+      - 383;93:1,
+      - 383;98:1,
+      - 383;100:1,
+      - 383;101:1,
+      - 383;95:1,
+      - 399:1
+      
+# Maximum amount of money a player can get from a lootcrate.
+# The plugin generates a random integer between 0 and this number (this number excluded).
+maximum_money: 400
+
+# Item in the chest that is used to give the player money.
+# Don't forget to add this to the list of items (either common or rare, your call).
+money_item: 266

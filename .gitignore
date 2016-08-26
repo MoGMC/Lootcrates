@@ -1,0 +1,9 @@
+/.classpath
+/.project
+/.settings
+# Manually list all the target dirs that aren't the final jar
+/target/classes
+/target/generated-sources
+/target/maven-archiver
+/target/maven-status
+/target/
