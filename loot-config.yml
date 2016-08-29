@@ -51,7 +51,7 @@ loot:
       - 383;100:1,
       - 383;101:1,
       - 383;95:1,
-      - 399:1
+      - 399;0:1
       
 # Maximum amount of money a player can get from a lootcrate.
 # The plugin generates a random integer between 0 and this number (this number excluded).
